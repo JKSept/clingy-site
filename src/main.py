@@ -1,12 +1,9 @@
 from textnode import TextNode, TextType
 
 
-print('Hello earth')
-
 def main():
-    new_node = TextNode("anchortest", TextType.BOLD_TEXT, "a url")
+    new_node = TextNode("This is a test node", TextType.BOLD, "https://www.boot.dev")
     print(new_node)
-
 
 
 main()
